@@ -32,7 +32,7 @@ jobs:
       - name: Install uv
         # Installs the uv tool from Astral, which will be used for all subsequent
         # dependency management and script running steps.
-        uses: astral-sh/setup-uv@v1
+        uses: astral-sh/setup-uv@v9.0.0
         with:
           # Pin a specific version of uv for reproducible builds.
           version: "0.11.30"
