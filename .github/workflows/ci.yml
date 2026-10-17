@@ -36,10 +36,10 @@ jobs:
       - name: Install uv
         # Installs the uv tool from Astral, which will be used for all subsequent
         # dependency management and script running steps.
-        uses: astral-sh/setup-uv@c18668ad3cf93ea998bef934396af7bb5c839dc7 # v10.2.0
+        uses: astral-sh/setup-uv@1c37ad07a6a961277cf70c0d37d6f313000f5884 # v10.3.0
         with:
           # Pin a specific version of uv for reproducible builds.
-          version: "0.12.23"
+          version: "0.13.0"
 
       - name: Install Copier
         # We need Copier to generate the project from the template files.
