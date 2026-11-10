@@ -39,7 +39,7 @@ jobs:
         uses: astral-sh/setup-uv@68559e99cc807c1eb7e9238fd43a15bba460eec2 # v10.3.3
         with:
           # Pin a specific version of uv for reproducible builds.
-          version: "0.13.6"
+          version: "0.13.7"
 
       - name: Install Copier
         # We need Copier to generate the project from the template files.
